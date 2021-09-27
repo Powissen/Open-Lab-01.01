@@ -6,8 +6,7 @@ namespace Open_Lab_01._01
     {
         public bool IsLessThan10(string input)
         {
-            int number;
-            int.TryParse(input, out number);
+            int.TryParse(input, out int number);
 
             if (number < 10)
             {
